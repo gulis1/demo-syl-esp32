@@ -8,20 +8,21 @@ Un pequeño firmare de ejemplo, utilizando los bindingds de ESP-IDF para Rust. E
 
 ## Requisitos
 
-- [Toolchain de Rust para extensa y ESP](https://github.com/esp-rs/rust-build)
-    > Instrucciones de instalación en el enlace.
+- [Toolchain de Rust para extensa y ESP](https://github.com/esp-rs/rust-build): Instrucciones de instalación en el enlace.
 
 - [Ldproxy](https://lib.rs/crates/ldproxy):
-    > $ cargo install ldproxy
 
--  [espflash](https://github.com/esp-rs/espflash/blob/main/espflash/README.md)
-    > $ cargo install espflash
+      $ cargo install ldproxy
+
+- [espflash](https://github.com/esp-rs/espflash/blob/main/espflash/README.md):
+
+      $ cargo install espflash
 
 ## Ejecución
 
-Tras instalar los requisitos, clonar el repositorio. Para compilar, flashear y monitorizar la placa, nos situamos en el directorio del repo y lanzamos el siguiente comand:
+Tras instalar los requisitos, clonar el repositorio. Para compilar, flashear y monitorizar la placa, nos situamos en el directorio del repo y lanzamos el siguiente comando:
 
-> cargo run
+    $ cargo run
 
 ## Más información
 
